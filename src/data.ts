@@ -490,6 +490,20 @@ export const products: Product[] = [
     "image": "/Rolling Paper.webp",
     "featured": false,
     "stockCount": 6
+  },
+  {
+    "id": "P037",
+    "name": "CBD Infused Coffee",
+    "description": "A rich, freshly brewed coffee infused with premium CBD. Get the perfect balanced start to your day with smooth energy and no jitters.",
+    "category": "Edibles",
+    "price": 50,
+    "weight": "1 cup",
+    "availability": "In Stock",
+    "sku": "SYS-P037",
+    "strainType": "N/A",
+    "image": "/cbd_coffee.jpg",
+    "featured": false,
+    "stockCount": 15
   }
 ];
 

@@ -135,22 +135,14 @@ export default function Layout() {
             </div>
             <div className="flex items-center gap-4">
               <a 
-                href="https://instagram.com" 
+                href="https://www.instagram.com/sativa_yard/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="hover:text-brass transition-colors" 
+                className="flex items-center gap-1.5 hover:text-brass transition-colors border-r border-cream/15 pr-4" 
                 aria-label="Instagram"
               >
-                <Instagram className="h-3.5 w-3.5" />
-              </a>
-              <a 
-                href="https://facebook.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="hover:text-brass transition-colors border-r border-cream/15 pr-4" 
-                aria-label="Facebook"
-              >
-                <Facebook className="h-3.5 w-3.5" />
+                <Instagram className="h-4 w-4" />
+                <span className="hidden sm:inline normal-case tracking-normal font-medium text-[11px]">Follow us on Instagram</span>
               </a>
               <span className="bg-brass text-forest text-[9px] font-black px-1.5 py-0.5 rounded leading-none">
                 18+
@@ -355,20 +347,13 @@ export default function Layout() {
               </p>
               <div className="flex gap-4">
                 <a 
-                  href="#" 
+                  href="https://www.instagram.com/sativa_yard/" 
                   target="_blank" 
-                  rel="noopener" 
-                  className="flex items-center justify-center w-8 h-8 rounded-full bg-emerald-50 border border-emerald-100 text-emerald-700 hover:bg-emerald-100 transition-colors"
+                  rel="noopener noreferrer" 
+                  className="flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-50 border border-emerald-100 text-emerald-700 hover:bg-emerald-100 hover:text-emerald-900 transition-colors"
                 >
                   <Instagram className="h-4 w-4" />
-                </a>
-                <a 
-                  href="#" 
-                  target="_blank" 
-                  rel="noopener" 
-                  className="flex items-center justify-center w-8 h-8 rounded-full bg-emerald-50 border border-emerald-100 text-emerald-700 hover:bg-emerald-100 transition-colors"
-                >
-                  <Facebook className="h-4 w-4" />
+                  <span className="text-sm font-medium">Connect with us on Instagram</span>
                 </a>
               </div>
             </div>
