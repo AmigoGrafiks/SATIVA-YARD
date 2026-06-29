@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
     "id": "P001",
     "name": "Ell Chapo AAA",
-    "description": "Levels up, keeps you not too low, not too high. For an easy day.",
+    "description": "A premium, heavy-hitting Hybrid with earthy, pine flavors that delivers deep physical relaxation and a calm, happy mind.",
     "category": "Cannabis Flower",
     "price": 120,
     "weight": "1g",
@@ -18,7 +18,7 @@ export const products: Product[] = [
   {
     "id": "P002",
     "name": "Tequila Sunrise",
-    "description": "Levels up, keeps you not too low, not too high. For an easy day.",
+    "description": "A vibrant Hybrid bursting with sweet citrus and fruity flavors, offering a balanced, uplifting high perfect for a sunny day.",
     "category": "Cannabis Flower",
     "price": 80,
     "weight": "1g",
@@ -32,7 +32,7 @@ export const products: Product[] = [
   {
     "id": "P003",
     "name": "B52",
-    "description": "Elevates your mood, brings energy, keeps you proactive.",
+    "description": "A classic, sweet-tasting Sativa that provides a soaring cerebral buzz and sustained energy to keep you motivated and engaged.",
     "category": "Cannabis Flower",
     "price": 90,
     "weight": "1g",
@@ -46,7 +46,7 @@ export const products: Product[] = [
   {
     "id": "P004",
     "name": "Sour Biskot",
-    "description": "Drops your energy, sleeping pill, for full relaxation.",
+    "description": "A potent Indica cross blending sour, diesel notes with sweet, baked goods flavors for profound relaxation and a heavy body high.",
     "category": "Cannabis Flower",
     "price": 120,
     "weight": "1g",
@@ -60,7 +60,7 @@ export const products: Product[] = [
   {
     "id": "P005",
     "name": "Nacho Cheese",
-    "description": "Elevates your mood, brings energy, keeps you proactive.",
+    "description": "A unique, pungent Sativa with a sharp, savory cheese aroma that delivers a clear-headed, uplifting, and creative buzz.",
     "category": "Cannabis Flower",
     "price": 80,
     "weight": "1g",
@@ -74,7 +74,7 @@ export const products: Product[] = [
   {
     "id": "P006",
     "name": "Blue Gelato",
-    "description": "Elevates your mood, brings energy, keeps you proactive.",
+    "description": "A fruity and sweet Sativa offering a burst of berry flavors paired with an energizing, mood-elevating high perfect for daytime.",
     "category": "Cannabis Flower",
     "price": 90,
     "weight": "1g",
@@ -88,7 +88,7 @@ export const products: Product[] = [
   {
     "id": "P007",
     "name": "Champagne Roze",
-    "description": "Elevates your mood, brings energy, keeps you proactive.",
+    "description": "An elegant Sativa with floral and sweet berry notes, providing a bubbly, euphoric head high that sparks creativity and joy.",
     "category": "Cannabis Flower",
     "price": 100,
     "weight": "1g",
@@ -102,7 +102,7 @@ export const products: Product[] = [
   {
     "id": "P008",
     "name": "Ellen Cookii",
-    "description": "Elevates your mood, brings energy, keeps you proactive.",
+    "description": "A vibrant Sativa offering sweet, earthy cookie dough flavors alongside a stimulating and proactive cerebral high.",
     "category": "Cannabis Flower",
     "price": 80,
     "weight": "1g",
@@ -116,7 +116,7 @@ export const products: Product[] = [
   {
     "id": "P009",
     "name": "Green House",
-    "description": "Elevates your mood, brings energy, keeps you proactive.",
+    "description": "A sun-kissed, greenhouse-grown Sativa delivering an uplifting and earthy experience, perfect for outdoor activities and creative endeavors.",
     "category": "Cannabis Flower",
     "price": 50,
     "weight": "1g",
@@ -130,7 +130,7 @@ export const products: Product[] = [
   {
     "id": "P010",
     "name": "Passion Fizz",
-    "description": "Levels up, keeps you not too low, not too high. For an easy day.",
+    "description": "A delightfully fruity and effervescent Hybrid offering a balanced, euphoric high that eases the body while stimulating the mind.",
     "category": "Cannabis Flower",
     "price": 90,
     "weight": "1g",
@@ -144,7 +144,7 @@ export const products: Product[] = [
   {
     "id": "P011",
     "name": "Mexican Avalanche",
-    "description": "Elevates your mood, brings energy, keeps you proactive.",
+    "description": "A potent and fast-acting Sativa that triggers an avalanche of energetic, cerebral euphoria and creative focus.",
     "category": "Cannabis Flower",
     "price": 90,
     "weight": "1g",
@@ -158,7 +158,7 @@ export const products: Product[] = [
   {
     "id": "P012",
     "name": "Wedding Gelato",
-    "description": "Drops your energy, sleeping pill, for full relaxation.",
+    "description": "A decadently sweet and creamy Indica cross that melts away stress, providing profound full-body relaxation and a peaceful mindset.",
     "category": "Cannabis Flower",
     "price": 80,
     "weight": "1g",
@@ -172,7 +172,7 @@ export const products: Product[] = [
   {
     "id": "P013",
     "name": "Green House Select",
-    "description": "Drops your energy, sleeping pill, for full relaxation.",
+    "description": "A carefully selected, greenhouse-grown Indica offering rich, earthy aromas and deep, soothing physical relaxation.",
     "category": "Cannabis Flower",
     "price": 40,
     "weight": "1g",
@@ -186,7 +186,7 @@ export const products: Product[] = [
   {
     "id": "P014",
     "name": "Mint Runtz",
-    "description": "Levels up, keeps you not too low, not too high. For an easy day.",
+    "description": "A refreshing, sweet, and minty Hybrid that delivers a beautifully balanced high, offering mental clarity alongside physical calm.",
     "category": "Cannabis Flower",
     "price": 70,
     "weight": "1g",
@@ -200,7 +200,7 @@ export const products: Product[] = [
   {
     "id": "P016",
     "name": "Green Door",
-    "description": "Drops your energy, sleeping pill, for full relaxation.",
+    "description": "A robust, earthy Indica cultivated in our greenhouse, designed to open the door to deep rest and total body tranquility.",
     "category": "Cannabis Flower",
     "price": 50,
     "weight": "1g",
@@ -214,7 +214,7 @@ export const products: Product[] = [
   {
     "id": "P017",
     "name": "Dab Infused Sticks",
-    "description": "Elevates your mood, brings energy, keeps you proactive.",
+    "description": "Premium Sativa pre-rolled joints supercharged with high-quality dab concentrate for an incredibly potent, long-lasting, and energizing experience.",
     "category": "Pre-Rolls",
     "price": 160,
     "weight": "1g",
@@ -228,7 +228,7 @@ export const products: Product[] = [
   {
     "id": "P018",
     "name": "Green Door Moonsticks",
-    "description": "Premium selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Premium cannabis pre-rolls infused with concentrate and rolled in kief for a potent, out-of-this-world experience.",
     "category": "Pre-Rolls",
     "price": 80,
     "weight": "1g",
@@ -298,7 +298,7 @@ export const products: Product[] = [
   {
     "id": "P023",
     "name": "Pre-Roll (Green House)",
-    "description": "Premium selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Convenient and ready-to-smoke pre-rolled joints, packed with quality greenhouse-grown cannabis flower.",
     "category": "Pre-Rolls",
     "price": 30,
     "weight": "1 pc",
@@ -326,7 +326,7 @@ export const products: Product[] = [
   {
     "id": "P025",
     "name": "Muffins",
-    "description": "Premium selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Freshly baked, cannabis-infused muffins offering a delicious and discreet way to enjoy a satisfying, long-lasting high.",
     "category": "Edibles",
     "price": 50,
     "weight": "1 pc",
@@ -340,7 +340,7 @@ export const products: Product[] = [
   {
     "id": "P026",
     "name": "Gummies",
-    "description": "Premium selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Sweet and chewy fruit gummies, precisely dosed with premium cannabis extract for a flavorful and elevated experience.",
     "category": "Edibles",
     "price": 50,
     "weight": "1 pack",
@@ -354,21 +354,21 @@ export const products: Product[] = [
   {
     "id": "P027",
     "name": "Dab Hit",
-    "description": "Premium selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "High-potency cannabis concentrate crafted for experienced users, delivering intense flavor and immediate effects.",
     "category": "Concentrates",
     "price": 30,
     "weight": "1 dose",
     "availability": "In Stock",
     "sku": "SYS-P027",
     "strainType": "N/A",
-    "image": "/Dab Hit.jpeg",
+    "image": "/Dab Hit.png",
     "featured": false,
     "stockCount": 11
   },
   {
     "id": "P028",
     "name": "Cannabis Soda POPS SODA",
-    "description": "Premium selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "A crisp, refreshing cannabis-infused carbonated beverage perfect for a fast-acting, drinkable high.",
     "category": "Edibles",
     "price": 50,
     "weight": "300ml",
@@ -382,7 +382,7 @@ export const products: Product[] = [
   {
     "id": "P029",
     "name": "Cannabis Soda GREEN GIANT",
-    "description": "Premium selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "A larger, potent cannabis-infused soda packed with bold flavors and uplifting effects for any occasion.",
     "category": "Edibles",
     "price": 100,
     "weight": "500ml",
@@ -396,7 +396,7 @@ export const products: Product[] = [
   {
     "id": "P030",
     "name": "G Pen Dash Vaporizer",
-    "description": "Elevates your mood, brings energy, keeps you proactive.",
+    "description": "Compact and lightweight dry herb vaporizer featuring a durable aluminum alloy body and glass-glazed stainless steel heating chamber.",
     "category": "Vapes",
     "price": 860,
     "weight": "9000 Pulls",
@@ -410,7 +410,7 @@ export const products: Product[] = [
   {
     "id": "P031",
     "name": "Vape Cartridge (Skywalker)",
-    "description": "Elevates your mood, brings energy, keeps you proactive.",
+    "description": "Premium Sativa vape cartridge delivering smooth, flavorful vapor. Perfect for raising your spirits, blazing, and unlocking creativity.",
     "category": "Vapes",
     "price": 450,
     "weight": "1 pc",
@@ -424,7 +424,7 @@ export const products: Product[] = [
   {
     "id": "P032",
     "name": "Vape Cartridge (Tooti Fruity)",
-    "description": "Elevates your mood, brings energy, keeps you proactive.",
+    "description": "Deliciously fruity Sativa vape cartridge designed for the perfect wake and bake. Get going with an energetic and uplifting high.",
     "category": "Vapes",
     "price": 450,
     "weight": "1 pc",
@@ -438,7 +438,7 @@ export const products: Product[] = [
   {
     "id": "P033",
     "name": "Hemp Wraps",
-    "description": "Premium selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Natural, tobacco-free hemp wraps designed for a slow, even burn and a smooth, pure rolling experience.",
     "category": "Accessories",
     "price": 20,
     "weight": "1 pc",
@@ -452,7 +452,7 @@ export const products: Product[] = [
   {
     "id": "P034",
     "name": "OHIS Tubes (Container)",
-    "description": "Premium selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Durable, smell-proof OHIS Rolling Club joint tubes, perfect for keeping your pre-rolls fresh and protected on the go.",
     "category": "Accessories",
     "price": 20,
     "weight": "1 pc",
@@ -466,7 +466,7 @@ export const products: Product[] = [
   {
     "id": "P035",
     "name": "Lighter",
-    "description": "Premium selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "A reliable, pocket-sized lighter essential for sparking up your favorite flower, pre-rolls, or concentrates.",
     "category": "Accessories",
     "price": 15,
     "weight": "1 pc",
@@ -480,7 +480,7 @@ export const products: Product[] = [
   {
     "id": "P036",
     "name": "Rolling Paper",
-    "description": "Premium selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Ultra-thin, unrefined natural rolling papers ensuring an even burn and preserving the authentic flavor of your flower.",
     "category": "Accessories",
     "price": 30,
     "weight": "1 pc",
