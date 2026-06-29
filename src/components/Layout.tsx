@@ -129,8 +129,8 @@ export default function Layout() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between text-[11px] font-bold uppercase tracking-widest">
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-1.5">
-                <MapPin className="h-3.5 w-3.5 text-brass" />
-                <span>26 Van Beek St, New Doornfontein, Johannesburg, 2094</span>
+                <MapPin className="h-3.5 w-3.5 text-brass shrink-0" />
+                <span className="hidden sm:inline">26 Van Beek St, New Doornfontein, Johannesburg, 2094</span>
               </div>
             </div>
             <div className="flex items-center gap-4">

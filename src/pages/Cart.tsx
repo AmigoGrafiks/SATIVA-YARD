@@ -209,7 +209,7 @@ export default function Cart() {
   // EMPTY CART GUARD: If cart is empty, show nice empty state
   if (cart.length === 0) {
     return (
-      <div className="bg-gray-50 min-h-screen py-24 px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center justify-center">
+      <div className="bg-gray-50 min-h-screen py-16 sm:py-24 px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center justify-center">
         <Helmet>
           <title>Your Cart is Empty | Sativa Yard</title>
           <meta name="robots" content="noindex, nofollow" />
@@ -243,8 +243,8 @@ export default function Cart() {
           {/* Cart Items */}
           <div className="lg:col-span-2 space-y-4">
             {cart.map((item) => (
-              <div key={item.product.id} className="bg-white p-4 rounded-[32px] shadow-sm border border-emerald-50 flex gap-6 items-center">
-                <div className="w-28 h-28 bg-emerald-50/50 rounded-2xl overflow-hidden shrink-0">
+              <div key={item.product.id} className="bg-white p-3 sm:p-4 rounded-[32px] shadow-sm border border-emerald-50 flex gap-4 sm:gap-6 items-start sm:items-center">
+                <div className="w-20 h-20 sm:w-28 sm:h-28 bg-emerald-50/50 rounded-2xl overflow-hidden shrink-0 mt-2 sm:mt-0">
                   <img src={item.product.image} alt={item.product.name} className="w-full h-full object-cover mix-blend-multiply" />
                 </div>
                 <div className="flex-grow flex flex-col py-2 pr-4">

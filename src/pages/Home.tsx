@@ -18,7 +18,7 @@ export default function Home() {
         <meta name="description" content="Welcome to Sativa Yard, Johannesburg's premier cannabis lifestyle destination. Explore our curated selection of premium top-shelf flower, edibles, concentrates, and accessories." />
       </Helmet>
       {/* Hero Section */}
-      <section className="relative pt-24 pb-24 md:pt-32 md:pb-32 overflow-hidden bg-gradient-to-br from-emerald-50/60 via-white to-emerald-50/30">
+      <section className="relative pt-16 pb-16 md:pt-32 md:pb-32 overflow-hidden bg-gradient-to-br from-emerald-50/60 via-white to-emerald-50/30">
         {/* Ambient Decorative Glowing Blobs */}
         <div className="absolute top-[-20%] left-[-10%] w-[50%] h-[60%] rounded-full bg-emerald-100/40 blur-[120px] pointer-events-none z-0" />
         <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[50%] rounded-full bg-emerald-100/20 blur-[100px] pointer-events-none z-0" />
@@ -35,10 +35,10 @@ export default function Home() {
               <span className="inline-block py-2 px-4 rounded-full bg-emerald-100/60 text-emerald-800 text-xs font-bold uppercase tracking-[0.2em] mb-6 border border-emerald-200/50 shadow-sm">
                 JOHANNESBURG, SA
               </span>
-              <h1 className="text-5xl sm:text-6xl md:text-7xl font-black text-emerald-900 leading-[1.05] tracking-tight mb-4">
+              <h1 className="text-4xl sm:text-6xl md:text-7xl font-black text-emerald-900 leading-[1.05] tracking-tight mb-4">
                 Sativa Yard
               </h1>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-emerald-700 leading-tight mb-6">
+              <h2 className="text-xl sm:text-3xl md:text-4xl font-extrabold text-emerald-700 leading-tight mb-6">
                 Johannesburg's Premium Cannabis Destination.
               </h2>
               <p className="text-lg text-emerald-800/80 mb-10 leading-relaxed font-medium">
@@ -47,13 +47,13 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   to="/products"
-                  className="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white bg-emerald-700 hover:bg-emerald-800 rounded-2xl transition-all hover:scale-[1.02] shadow-lg shadow-emerald-700/20"
+                  className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white bg-emerald-700 hover:bg-emerald-800 rounded-2xl transition-all hover:scale-[1.02] shadow-lg shadow-emerald-700/20"
                 >
                   Shop Products
                 </Link>
                 <Link
                   to="/contact"
-                  className="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-emerald-700 bg-white hover:bg-emerald-50 border border-emerald-200 rounded-2xl transition-all hover:scale-[1.02] shadow-sm"
+                  className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-base font-bold text-emerald-700 bg-white hover:bg-emerald-50 border border-emerald-200 rounded-2xl transition-all hover:scale-[1.02] shadow-sm"
                 >
                   Learn More
                 </Link>
@@ -231,9 +231,9 @@ export default function Home() {
             </Link>
           </div>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8">
             {featuredProducts.map((product) => (
-              <div key={product.id} className="group bg-white rounded-[32px] border border-emerald-50 overflow-hidden hover:shadow-xl hover:shadow-emerald-900/5 transition-all duration-300 flex flex-col p-4 shadow-sm">
+              <div key={product.id} className="group bg-white rounded-[32px] border border-emerald-50 overflow-hidden hover:shadow-xl hover:shadow-emerald-900/5 transition-all duration-300 flex flex-col p-3 sm:p-4 shadow-sm">
                 <div className="aspect-square bg-emerald-50/50 rounded-2xl relative overflow-hidden mb-4">
                   <img src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 mix-blend-multiply" />
                   <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-[10px] font-black text-emerald-800 uppercase tracking-widest border border-emerald-100">

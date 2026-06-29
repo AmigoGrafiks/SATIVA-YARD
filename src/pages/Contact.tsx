@@ -27,7 +27,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="bg-gray-50 min-h-screen py-24">
+    <div className="bg-gray-50 min-h-screen py-16 md:py-24">
       <Helmet>
         <title>Contact Us | Sativa Yard</title>
         <meta name="description" content="Reach out to Sativa Yard in Johannesburg. Contact us via phone, email, WhatsApp, or visit our retail store at 26 Van Beek St, New Doornfontein." />
@@ -44,7 +44,7 @@ export default function Contact() {
 
         <div className="grid md:grid-cols-2 gap-8 bg-white rounded-[40px] overflow-hidden shadow-sm border border-emerald-50 p-4">
           {/* Contact Info */}
-          <div className="p-12 md:p-16 bg-emerald-800 text-emerald-50 rounded-[32px]">
+          <div className="p-8 md:p-12 lg:p-16 bg-emerald-800 text-emerald-50 rounded-[32px]">
              <h2 className="text-xs font-bold tracking-[0.2em] text-emerald-400 uppercase mb-8">Contact Information</h2>
              
              <div className="space-y-8">
@@ -109,7 +109,7 @@ export default function Contact() {
           </div>
 
           {/* Form */}
-          <div className="p-12 md:p-16 flex flex-col justify-center">
+          <div className="p-8 md:p-12 lg:p-16 flex flex-col justify-center">
             <h2 className="text-2xl font-extrabold text-emerald-900 mb-8">Send a Message</h2>
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div>
@@ -148,7 +148,7 @@ export default function Contact() {
                   placeholder="How can we help you?"
                 />
               </div>
-              <div className="flex flex-col xl:flex-row gap-4 pt-4">
+              <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <button 
                   type="submit"
                   className="flex-1 bg-emerald-50 text-emerald-700 border border-emerald-100 rounded-2xl py-4 font-bold hover:bg-emerald-100 transition-colors cursor-pointer"

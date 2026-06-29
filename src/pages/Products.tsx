@@ -56,8 +56,8 @@ export default function Products() {
         
         {/* Header */}
         <div className="mb-12 text-center max-w-2xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-emerald-900 tracking-tight mb-4">Curated Collection</h1>
-          <p className="text-emerald-800/70 leading-relaxed font-medium">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-emerald-900 tracking-tight mb-4">Curated Collection</h1>
+          <p className="text-emerald-800/70 leading-relaxed font-medium text-sm sm:text-base">
             Explore our premium selection of indoor-grown flower, artisan edibles, pure concentrates, and high-end accessories.
           </p>
         </div>
@@ -93,7 +93,7 @@ export default function Products() {
         </div>
 
         {/* Product Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-8">
           <AnimatePresence>
             {filteredProducts.map((product) => (
               <motion.div 
@@ -103,7 +103,7 @@ export default function Products() {
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.2 }}
                 key={product.id} 
-                className="bg-white rounded-[32px] border border-emerald-50 overflow-hidden hover:shadow-xl hover:shadow-emerald-900/5 transition-all duration-300 flex flex-col group p-4"
+                className="bg-white rounded-[32px] border border-emerald-50 overflow-hidden hover:shadow-xl hover:shadow-emerald-900/5 transition-all duration-300 flex flex-col group p-3 sm:p-4"
               >
                 <div className="aspect-square bg-emerald-50/50 rounded-2xl relative overflow-hidden mb-4">
                   <img src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 mix-blend-multiply" />

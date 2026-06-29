@@ -4,232 +4,217 @@ export const products: Product[] = [
   {
     "id": "P001",
     "name": "Ell Chapo AAA",
-    "description": "A premium Hybrid selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Levels up, keeps you not too low, not too high. For an easy day.",
     "category": "Cannabis Flower",
     "price": 120,
     "weight": "1g",
     "availability": "In Stock",
     "sku": "SYS-P001",
-    "strainType": "Hybrid",
+    "strainType": "Indoor Hybrid",
     "image": "/Ell Chapo AAA.webp",
-    "featured": true
-  ,
+    "featured": true,
     "stockCount": 6
   },
   {
     "id": "P002",
     "name": "Tequila Sunrise",
-    "description": "A premium Hybrid selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Levels up, keeps you not too low, not too high. For an easy day.",
     "category": "Cannabis Flower",
     "price": 80,
     "weight": "1g",
     "availability": "In Stock",
     "sku": "SYS-P002",
-    "strainType": "Hybrid",
+    "strainType": "Indoor Hybrid",
     "image": "/Tequila Sunrise.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 7
   },
   {
     "id": "P003",
     "name": "B52",
-    "description": "A premium Sativa selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Elevates your mood, brings energy, keeps you proactive.",
     "category": "Cannabis Flower",
     "price": 90,
     "weight": "1g",
     "availability": "In Stock",
     "sku": "SYS-P003",
-    "strainType": "Sativa",
+    "strainType": "Indoor Sativa",
     "image": "/B52.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 8
   },
   {
     "id": "P004",
     "name": "Sour Biskot",
-    "description": "A premium 80% Indica selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Drops your energy, sleeping pill, for full relaxation.",
     "category": "Cannabis Flower",
     "price": 120,
     "weight": "1g",
     "availability": "In Stock",
     "sku": "SYS-P004",
-    "strainType": "80% Indica",
+    "strainType": "Indoor Indica",
     "image": "/Sour Biskot.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 9
   },
   {
     "id": "P005",
     "name": "Nacho Cheese",
-    "description": "A premium Sativa selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Elevates your mood, brings energy, keeps you proactive.",
     "category": "Cannabis Flower",
     "price": 80,
     "weight": "1g",
     "availability": "In Stock",
     "sku": "SYS-P005",
-    "strainType": "Sativa",
+    "strainType": "Indoor Sativa",
     "image": "/Nacho Cheese.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 10
   },
   {
     "id": "P006",
     "name": "Blue Gelato",
-    "description": "A premium Sativa selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Elevates your mood, brings energy, keeps you proactive.",
     "category": "Cannabis Flower",
     "price": 90,
     "weight": "1g",
     "availability": "In Stock",
     "sku": "SYS-P006",
-    "strainType": "Sativa",
+    "strainType": "Indoor Sativa",
     "image": "/Blue-Gelatowebp.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 11
   },
   {
     "id": "P007",
     "name": "Champagne Roze",
-    "description": "A premium Sativa selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Elevates your mood, brings energy, keeps you proactive.",
     "category": "Cannabis Flower",
     "price": 100,
     "weight": "1g",
     "availability": "In Stock",
     "sku": "SYS-P007",
-    "strainType": "Sativa",
+    "strainType": "Indoor Sativa",
     "image": "/Champagne Roze.jpg",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 5
   },
   {
     "id": "P008",
     "name": "Ellen Cookii",
-    "description": "A premium Sativa selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Elevates your mood, brings energy, keeps you proactive.",
     "category": "Cannabis Flower",
     "price": 80,
     "weight": "1g",
     "availability": "In Stock",
     "sku": "SYS-P008",
-    "strainType": "Sativa",
+    "strainType": "Indoor Sativa",
     "image": "/Ellen Cookii.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 6
   },
   {
     "id": "P009",
     "name": "Green House",
-    "description": "A premium Sativa selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Elevates your mood, brings energy, keeps you proactive.",
     "category": "Cannabis Flower",
     "price": 50,
     "weight": "1g",
     "availability": "In Stock",
     "sku": "SYS-P009",
-    "strainType": "Sativa",
+    "strainType": "Greenhouse Sativa",
     "image": "/Green House.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 7
   },
   {
     "id": "P010",
     "name": "Passion Fizz",
-    "description": "Premium selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Levels up, keeps you not too low, not too high. For an easy day.",
     "category": "Cannabis Flower",
     "price": 90,
     "weight": "1g",
     "availability": "In Stock",
     "sku": "SYS-P010",
-    "strainType": "N/A",
+    "strainType": "Indoor Hybrid",
     "image": "/Passion Fizz.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 8
   },
   {
     "id": "P011",
     "name": "Mexican Avalanche",
-    "description": "A premium Sativa selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Elevates your mood, brings energy, keeps you proactive.",
     "category": "Cannabis Flower",
     "price": 90,
     "weight": "1g",
     "availability": "In Stock",
     "sku": "SYS-P011",
-    "strainType": "Sativa",
+    "strainType": "Indoor Sativa",
     "image": "/Mexican Avalanche.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 9
   },
   {
     "id": "P012",
     "name": "Wedding Gelato",
-    "description": "A premium Indica selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Drops your energy, sleeping pill, for full relaxation.",
     "category": "Cannabis Flower",
     "price": 80,
     "weight": "1g",
     "availability": "In Stock",
     "sku": "SYS-P012",
-    "strainType": "Indica",
+    "strainType": "Indoor Indica",
     "image": "/Wedding Gelato.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 10
   },
   {
     "id": "P013",
     "name": "Green House Select",
-    "description": "Premium selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Drops your energy, sleeping pill, for full relaxation.",
     "category": "Cannabis Flower",
     "price": 40,
     "weight": "1g",
     "availability": "In Stock",
     "sku": "SYS-P013",
-    "strainType": "N/A",
+    "strainType": "Greenhouse Indica",
     "image": "/Green House.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 11
   },
   {
     "id": "P014",
     "name": "Mint Runtz",
-    "description": "A premium Hybrid selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Levels up, keeps you not too low, not too high. For an easy day.",
     "category": "Cannabis Flower",
     "price": 70,
     "weight": "1g",
     "availability": "In Stock",
     "sku": "SYS-P014",
-    "strainType": "Hybrid",
+    "strainType": "Outdoor Hybrid",
     "image": "/Mint Runtz.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 5
   },
   {
     "id": "P016",
     "name": "Green Door",
-    "description": "Premium selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Drops your energy, sleeping pill, for full relaxation.",
     "category": "Cannabis Flower",
     "price": 50,
     "weight": "1g",
     "availability": "In Stock",
     "sku": "SYS-P016",
-    "strainType": "N/A",
+    "strainType": "Greenhouse Indica",
     "image": "/Green Door.jpeg",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 7
   },
   {
     "id": "P017",
     "name": "Dab Infused Sticks",
-    "description": "A premium Sativa selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Elevates your mood, brings energy, keeps you proactive.",
     "category": "Pre-Rolls",
     "price": 160,
     "weight": "1g",
@@ -237,8 +222,7 @@ export const products: Product[] = [
     "sku": "SYS-P017",
     "strainType": "Sativa",
     "image": "/Dab Infused Sticks.webp",
-    "featured": true
-  ,
+    "featured": true,
     "stockCount": 8
   },
   {
@@ -252,14 +236,13 @@ export const products: Product[] = [
     "sku": "SYS-P018",
     "strainType": "N/A",
     "image": "/Green Door Moonsticks.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 9
   },
   {
     "id": "P019",
     "name": "Hybrid Moonsticks",
-    "description": "A premium Sativa Dominant Hybrid selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Levels up, keeps you not too low, not too high. For an easy day.",
     "category": "Pre-Rolls",
     "price": 65,
     "weight": "1g",
@@ -267,29 +250,27 @@ export const products: Product[] = [
     "sku": "SYS-P019",
     "strainType": "Sativa Dominant Hybrid",
     "image": "/Hybrid Moonsticks.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 10
   },
   {
     "id": "P020",
     "name": "Gorilla Glue",
-    "description": "A premium Sativa selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Elevates your mood, brings energy, keeps you proactive.",
     "category": "Cannabis Flower",
     "price": 110,
     "weight": "1g",
     "availability": "In Stock",
     "sku": "SYS-P020",
-    "strainType": "Sativa",
+    "strainType": "Indoor Sativa",
     "image": "/Gorilla Glue.jpeg",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 11
   },
   {
     "id": "P021",
     "name": "Pre-Roll (Indoor)",
-    "description": "A premium Sativa selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Elevates your mood, brings energy, keeps you proactive.",
     "category": "Pre-Rolls",
     "price": 50,
     "weight": "1 pc",
@@ -297,14 +278,13 @@ export const products: Product[] = [
     "sku": "SYS-P021",
     "strainType": "Sativa",
     "image": "/Pre-Roll (Indoor).webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 5
   },
   {
     "id": "P022",
     "name": "Pre-Roll (Outdoor)",
-    "description": "A premium Indica selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Drops your energy, sleeping pill, for full relaxation.",
     "category": "Pre-Rolls",
     "price": 10,
     "weight": "1 pc",
@@ -312,8 +292,7 @@ export const products: Product[] = [
     "sku": "SYS-P022",
     "strainType": "Indica",
     "image": "/Pre-Roll (Outdoor).webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 6
   },
   {
@@ -327,23 +306,21 @@ export const products: Product[] = [
     "sku": "SYS-P023",
     "strainType": "N/A",
     "image": "/Pre-Roll (Green House).jpg",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 7
   },
   {
     "id": "P024",
     "name": "Color of Spades",
-    "description": "A premium Indica selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Drops your energy, sleeping pill, for full relaxation.",
     "category": "Cannabis Flower",
     "price": 150,
     "weight": "1g",
     "availability": "In Stock",
     "sku": "SYS-P024",
-    "strainType": "Indica",
+    "strainType": "Indoor Indica",
     "image": "/Color of Spades.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 8
   },
   {
@@ -357,8 +334,7 @@ export const products: Product[] = [
     "sku": "SYS-P025",
     "strainType": "N/A",
     "image": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?auto=format&fit=crop&q=80&w=800",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 9
   },
   {
@@ -372,8 +348,7 @@ export const products: Product[] = [
     "sku": "SYS-P026",
     "strainType": "N/A",
     "image": "/Gummies.webp",
-    "featured": true
-  ,
+    "featured": true,
     "stockCount": 10
   },
   {
@@ -387,8 +362,7 @@ export const products: Product[] = [
     "sku": "SYS-P027",
     "strainType": "N/A",
     "image": "/Dab Hit.jpeg",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 11
   },
   {
@@ -402,8 +376,7 @@ export const products: Product[] = [
     "sku": "SYS-P028",
     "strainType": "N/A",
     "image": "/Cannabis Soda POPS SODA.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 5
   },
   {
@@ -417,14 +390,13 @@ export const products: Product[] = [
     "sku": "SYS-P029",
     "strainType": "N/A",
     "image": "/Cannabis Soda GREEN GIANT.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 6
   },
   {
     "id": "P030",
     "name": "G Pen Dash Vaporizer",
-    "description": "A premium Sativa selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Elevates your mood, brings energy, keeps you proactive.",
     "category": "Vapes",
     "price": 860,
     "weight": "9000 Pulls",
@@ -432,14 +404,13 @@ export const products: Product[] = [
     "sku": "SYS-P030",
     "strainType": "Sativa",
     "image": "/g-pen-dash.png",
-    "featured": true
-  ,
+    "featured": true,
     "stockCount": 7
   },
   {
     "id": "P031",
     "name": "Vape Cartridge (Skywalker)",
-    "description": "A premium Sativa selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Elevates your mood, brings energy, keeps you proactive.",
     "category": "Vapes",
     "price": 450,
     "weight": "1 pc",
@@ -447,14 +418,13 @@ export const products: Product[] = [
     "sku": "SYS-P031",
     "strainType": "Sativa",
     "image": "/Vape Cartridge(Skywalker).webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 8
   },
   {
     "id": "P032",
     "name": "Vape Cartridge (Tooti Fruity)",
-    "description": "A premium Sativa selection. Perfectly crafted to elevate your experience in Johannesburg.",
+    "description": "Elevates your mood, brings energy, keeps you proactive.",
     "category": "Vapes",
     "price": 450,
     "weight": "1 pc",
@@ -462,8 +432,7 @@ export const products: Product[] = [
     "sku": "SYS-P032",
     "strainType": "Sativa",
     "image": "/Vape Cartridge (Tooti Fruity).webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 9
   },
   {
@@ -477,8 +446,7 @@ export const products: Product[] = [
     "sku": "SYS-P033",
     "strainType": "N/A",
     "image": "/Hemp Wraps.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 10
   },
   {
@@ -492,8 +460,7 @@ export const products: Product[] = [
     "sku": "SYS-P034",
     "strainType": "N/A",
     "image": "/OHIS Tubes (Container).webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 11
   },
   {
@@ -507,8 +474,7 @@ export const products: Product[] = [
     "sku": "SYS-P035",
     "strainType": "N/A",
     "image": "/Lighter.jpg",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 5
   },
   {
@@ -522,8 +488,7 @@ export const products: Product[] = [
     "sku": "SYS-P036",
     "strainType": "N/A",
     "image": "/Rolling Paper.webp",
-    "featured": false
-  ,
+    "featured": false,
     "stockCount": 6
   }
 ];

@@ -11,7 +11,7 @@ export default function About() {
         <meta name="description" content="Discover Sativa Yard's mission, our core values of quality, education, and professional service, and our journey as a premium cannabis lifestyle destination in Johannesburg." />
       </Helmet>
       {/* Hero */}
-      <section className="relative py-24 md:py-32 overflow-hidden bg-emerald-900 text-white">
+      <section className="relative py-16 md:py-32 overflow-hidden bg-emerald-900 text-white">
         <div className="absolute inset-0 opacity-15">
            <img 
             src="/About us 2.webp" 
@@ -25,8 +25,8 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-[0.9]">Redefining Cannabis Wellness.</h1>
-            <p className="text-xl text-emerald-100/70 leading-relaxed font-medium">
+            <h1 className="text-4xl md:text-7xl font-extrabold tracking-tight mb-6 leading-[0.9]">Redefining Cannabis Wellness.</h1>
+            <p className="text-lg md:text-xl text-emerald-100/70 leading-relaxed font-medium">
               Based in Johannesburg, Sativa Yard is a premium lifestyle brand committed to quality, education, and professional service.
             </p>
           </motion.div>
@@ -34,17 +34,17 @@ export default function About() {
       </section>
 
       {/* Vision & Mission */}
-      <section className="py-24 bg-white border-b border-emerald-50">
+      <section className="py-16 md:py-24 bg-white border-b border-emerald-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8">
             <motion.div 
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              className="bg-emerald-50/50 p-12 rounded-[40px] border border-emerald-100/50"
+              className="bg-emerald-50/50 p-8 sm:p-12 rounded-[40px] border border-emerald-100/50"
             >
               <h2 className="text-xs font-bold tracking-[0.2em] text-emerald-600 uppercase mb-4">Our Mission</h2>
-              <p className="text-emerald-900 font-serif italic text-2xl leading-relaxed">
+              <p className="text-emerald-900 font-serif italic text-xl md:text-2xl leading-relaxed">
                 To destigmatize cannabis through education, unparalleled product quality, and a luxury retail experience. We aim to integrate the natural benefits of cannabis seamlessly into the modern wellness lifestyle.
               </p>
             </motion.div>
@@ -53,10 +53,10 @@ export default function About() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="bg-emerald-800 text-white p-12 rounded-[40px] border border-emerald-700 shadow-xl shadow-emerald-900/10"
+              className="bg-emerald-800 text-white p-8 sm:p-12 rounded-[40px] border border-emerald-700 shadow-xl shadow-emerald-900/10"
             >
               <h2 className="text-xs font-bold tracking-[0.2em] text-emerald-400 uppercase mb-4">Our Vision</h2>
-              <p className="text-emerald-50/90 font-serif italic text-2xl leading-relaxed">
+              <p className="text-emerald-50/90 font-serif italic text-xl md:text-2xl leading-relaxed">
                 To be the most trusted and respected cannabis brand in South Africa, setting the industry benchmark for purity, transparency, and customer care.
               </p>
             </motion.div>
@@ -110,7 +110,7 @@ export default function About() {
       </section>
 
       {/* Values */}
-      <section className="py-24 bg-gray-50">
+      <section className="py-16 md:py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-xs font-bold tracking-[0.2em] text-emerald-600 uppercase mb-4">Core Principles</h2>
