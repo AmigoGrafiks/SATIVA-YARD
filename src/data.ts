@@ -333,7 +333,7 @@ export const products: Product[] = [
     "availability": "In Stock",
     "sku": "SYS-P025",
     "strainType": "N/A",
-    "image": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?auto=format&fit=crop&q=80&w=800",
+    "image": "/muffins-new.jpg",
     "featured": false,
     "stockCount": 9
   },
