@@ -507,7 +507,7 @@ export const products: Product[] = [
   }
 ];
 
-export const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || "27785870868";
+export const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || "27500112959";
 
 
 

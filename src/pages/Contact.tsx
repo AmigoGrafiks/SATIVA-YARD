@@ -64,7 +64,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">Phone & WhatsApp</h3>
-                    <p className="text-emerald-100/70 font-medium">+27 78 587 0868</p>
+                    <p className="text-emerald-100/70 font-medium">+27 50 011 2959</p>
                   </div>
                 </div>
 

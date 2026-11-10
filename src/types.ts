@@ -12,6 +12,12 @@ export type ProductStrainType =
   | '80% Indica' 
   | 'Indica' 
   | 'Sativa Dominant Hybrid' 
+  | 'Indoor Hybrid'
+  | 'Indoor Sativa'
+  | 'Indoor Indica'
+  | 'Greenhouse Sativa'
+  | 'Greenhouse Indica'
+  | 'Outdoor Hybrid'
   | 'N/A';
 
 export interface Product {

@@ -352,7 +352,7 @@ export default function Cart() {
                     value={customerNumber}
                     onChange={(e) => setCustomerNumber(e.target.value)}
                     className="w-full px-4 py-3 rounded-2xl border border-emerald-100 focus:ring-2 focus:ring-emerald-700/20 focus:border-emerald-700 outline-none transition-all text-sm hover:border-emerald-200 bg-gray-50/50"
-                    placeholder="Enter WhatsApp number (e.g. 27785870868)"
+                    placeholder="Enter WhatsApp number (e.g. 27500112959)"
                   />
                   {customerNumber && !isNumberValid && (
                     <p className="text-red-500 text-[10px] mt-1.5 font-bold uppercase tracking-wider">

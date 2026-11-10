@@ -24,6 +24,7 @@ export default function Layout() {
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'Products', href: '/products' },
+    { name: 'Events', href: '/events' },
     { name: 'About', href: '/about' },
     { name: 'Contact', href: '/contact' },
   ];
@@ -172,7 +173,9 @@ export default function Layout() {
             {!isMobile && (
               <nav className="flex items-center gap-8" aria-label="Main Navigation">
                 {navigation.map((link) => {
-                  const isActive = location.pathname === link.href;
+                  const isActive =
+                    location.pathname === link.href ||
+                    (link.href !== '/' && location.pathname.startsWith(`${link.href}/`));
                   return (
                     <Link
                       key={link.name}
@@ -295,7 +298,9 @@ export default function Layout() {
             >
               <div className="px-4 py-6 space-y-4 max-w-7xl mx-auto">
                 {navigation.map((link) => {
-                  const isActive = location.pathname === link.href;
+                  const isActive =
+                    location.pathname === link.href ||
+                    (link.href !== '/' && location.pathname.startsWith(`${link.href}/`));
                   return (
                     <Link
                       key={link.name}
@@ -393,7 +398,7 @@ export default function Layout() {
                 </li>
                 <li className="flex items-center gap-3">
                   <Phone className="h-5 w-5 text-emerald-700 shrink-0" />
-                  <span className="text-sm font-medium text-emerald-800/80">+27 78 587 0868</span>
+                  <span className="text-sm font-medium text-emerald-800/80">+27 50 011 2959</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="h-5 w-5 text-emerald-700 shrink-0" />
